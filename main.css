@@ -1,14 +1,9 @@
-/* =============================
-
-    GENERAL STYLES
-
-=============================*/
+*------------GENERAL STYLES----általános rész*/
 
 * {
   box-sizing: border-box;
 }
 
-/* Single-direction margin declaration to establish vertical rhythm. */
 h1,h2,h3,
 ul,ol,
 p,
@@ -57,15 +52,14 @@ a:hover {
   color: #eda087;
   transition: color .15s ease-in-out;
 }
-/* =============================
 
-    HEADER STYLES
 
-=============================*/
+/*------HEADER STYLES----fejléc---*/
+
 @media (min-width: 768px) {
 
   .cover {
-    background: url('https://imgur.com/52ocmYT.jpg') no-repeat center/cover;
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
   }
 }
 
@@ -145,11 +139,7 @@ a:hover {
   vertical-align: middle;
   margin: 0 .5rem;
 }
-/* =============================
-
-      LOCATIONS STYLES
-
-=============================*/
+/*---- LOCATIONS STYLES---helyek----*/
 
 @media (min-width: 768px) {
 
@@ -187,11 +177,7 @@ a:hover {
   background-color: #444349;
 }
 
-/* =============================
-
-        PROGRAM STYLES
-
-=============================*/
+/* -------- PROGRAM STYLES----programok----------*/
 
 @media (min-width: 768px) {
 
@@ -222,11 +208,7 @@ a:hover {
 .program ul {
   letter-spacing: .025rem;
 }
-/* =============================
-
-        GIFTS STYLES
-
-=============================*/
+/* -------GIFTS STYLES---Ajándékok--------*/
 
 .gifts img {
   height: 7.5rem;
@@ -235,11 +217,8 @@ a:hover {
 .gifts p:last-child {   /* To even out the bottom and top margins of this section. */
   margin-bottom: 0;
 }
-/* =============================
+/* FAQ STYLES (kérdések és válaszok)*/
 
-        FAQ STYLES
-
-=============================*/
 @media (min-width: 768px) {
 
   .question-group {
@@ -293,11 +272,8 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* =============================
+/*----FOOTER STYLES---Lábjegyzet----*/
 
-        FOOTER STYLES
-
-=============================*/
 @media (min-width: 768px) {
 
   footer {
@@ -329,3 +305,19 @@ footer p {
 footer small {
   line-height: 1.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
